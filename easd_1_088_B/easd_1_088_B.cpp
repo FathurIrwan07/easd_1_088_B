@@ -76,6 +76,17 @@ void mergeSort(string nama, int arr[20], int l, int r)
     merge(nama, arr, l, m, r);
 }
 
-/
+// Main function
+int main()
+{
+    // Input data
+    int n = 78 + 20 - 2 * 15 + 10 + 20; // Jumlah data maksimum
+    int arr[20];
+    cout << "Masukkan " << n << " bilangan integer:" << endl;
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    
 
 
