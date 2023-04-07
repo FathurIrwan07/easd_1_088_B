@@ -87,6 +87,11 @@ int main()
         cin >> arr[i];
     }
 
+    // Sort the array using merge sort
+    string nama = "NA"; // Ganti dengan nama panggilan Anda
+    mergeSort(nama, arr, 0, n - 1);
+
     
+}
 
 
