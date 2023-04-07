@@ -33,5 +33,20 @@ void merge(string nama, int arr[20], int l, int m, int r)
     for (j = 0; j < n2; j++)
         R[j] = arr[m + 1 + j];
 
-  
+    // Merge the temporary arrays back into arr[l..r]
+    i = 0; // Initial index of first sub-array
+    j = 0; // Initial index of second sub-array
+    k = l; // Initial index of merged sub-array
+    while (i < n1 && j < n2) {
+        if (L[i] <= R[j]) {
+            arr[k] = L[i];
+            i++;
+        }
+        else {
+            arr[k] = R[j];
+            j++;
+        }
+        k++;
+    }
 
+  
