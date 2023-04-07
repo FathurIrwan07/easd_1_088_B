@@ -64,3 +64,18 @@ void merge(string nama, int arr[20], int l, int m, int r)
     }
 }
 
+// Merge sort function
+void mergeSort(string nama, int arr[20], int l, int r)
+{
+    if (l >= r) {
+        return;
+    }
+    int m = l + (r - l) / 2;
+    mergeSort(nama, arr, l, m);
+    mergeSort(nama, arr, m + 1, r);
+    merge(nama, arr, l, m, r);
+}
+
+/
+
+
