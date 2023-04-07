@@ -24,6 +24,7 @@ void merge(string nama, int arr[20], int l, int m, int r)
     int n1 = m - l + 1;
     int n2 = r - m;
 
-  
+    // Create temporary arrays
+    int L[n1], R[n2];
 
-
+    
