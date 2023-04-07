@@ -27,4 +27,11 @@ void merge(string nama, int arr[20], int l, int m, int r)
     // Create temporary arrays
     int L[n1], R[n2];
 
-    
+    // Copy data to temporary arrays L[] and R[]
+    for (i = 0; i < n1; i++)
+        L[i] = arr[l + i];
+    for (j = 0; j < n2; j++)
+        R[j] = arr[m + 1 + j];
+
+  
+
