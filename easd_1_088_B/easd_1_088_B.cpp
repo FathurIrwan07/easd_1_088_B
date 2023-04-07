@@ -12,5 +12,18 @@
 // 5. Algoritma-algoritma Quadratic: 1. Bubble Sort, 2. Slection Sort, 3. Insertion Sort
     //Algoritma-algoritma Loglinear: 1. Quick Sort, 2. Marge Sort
 
-/
+// 6. Program Dari Algortima Marge Sort
+
+#include <iostream>
+using namespace std;
+
+
+void merge(string nama, int arr[20], int l, int m, int r)
+{
+    int i, j, k;
+    int n1 = m - l + 1;
+    int n2 = r - m;
+
+  
+
 
