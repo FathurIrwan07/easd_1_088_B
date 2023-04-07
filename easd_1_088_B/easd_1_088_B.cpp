@@ -91,6 +91,15 @@ int main()
     string nama = "NA"; // Ganti dengan nama panggilan Anda
     mergeSort(nama, arr, 0, n - 1);
 
+    // Print the sorted array
+    cout << "Array setelah diurutkan:" << endl;
+    for (int i = 0; i < n; i++) {
+
+        cout << arr[i] << " ";
+    }
+    cout << endl;
+
+    return 0;
     
 }
 
